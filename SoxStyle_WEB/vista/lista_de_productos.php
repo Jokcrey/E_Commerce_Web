@@ -30,7 +30,8 @@
     <br>
     <form action="">
         <label for="Texto contrasena">Por favor ingrese la contraseña para realizar la compra</label>
-
+        <br>
+        <br>
         <label for="contrasena">Contraseña</label>
         <input type="text" name="contrasena">
         <br>
