@@ -1,0 +1,23 @@
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #5E9ED6;
+    box-shadow: 0 0 5px #5E9ED6;
+  }
+  .contenedor{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  button{
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #0096ff;
+  }
