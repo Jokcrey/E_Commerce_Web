@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina Producto</title>
 </head>
 <body>
+    <header>
+        <h1>Logo</h1>
+    </header>
+    <div class="container-title">Camisas</div>
+    <main>
+        <div class="container-img">
+            <img src="https://falabella.scene7.com/is/image/FalabellaCO/8263644_1?wid=800&hei=800&qlt=70" alt="">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$25000</span>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">Escoge una opcion</option>
+                        <option value="rojo">rojo</option>
+                        <option value="Blanco">Blanco</option>
+                        <option value="Beige">Beige</option>
+                    </select>
+                    <div class="form-group">
+                        <label for="size">Talla</label>
+                        <select name="size" id="size">
+                            <option disabled selected value="">Escoge una opcion</option>
+                            <option value="40">40</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                        </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity">
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <button class="class="btn-add-to-cart""><i class="fa-regular fa-plus">Anadir al carrito</i></button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripcion</h4>
+                </div>
+                <div class="text-description">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto maxime quod perspiciatis voluptatum cupiditate corrupti dolorem magnam, exercitationem obcaecati consequatur id dolor et. Suscipit omnis saepe animi reprehenderit corporis eligendi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsam libero, repellendus, aperiam culpa quod, corrupti excepturi reiciendis sint est architecto provident voluptas! Repellat ipsum similique, magnam esse debitis nam.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/072c8eb564.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     
 </body>
 </html>
