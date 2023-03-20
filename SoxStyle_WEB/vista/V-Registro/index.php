@@ -26,26 +26,26 @@
         
         <div class="formulario_registro">
             <dvi class="titulo"> <h1>REGISTRATE</h1> </dvi>
-            <br>
+            
             <form method="get" action="#">
-                <label class="" for="nombres">Nombres:</label>
-                <input class="form-control" type="text" id="nombre" name="input_nombres">
+                <label class="labels" for="nombres">Nombres:</label>
+                <input class="inputs" type="text" id="nombre" name="input_nombres">
                 <br><br>
                 
                 <label for="apellidos">Apellidos:</label>
-                <input class="form-control" type="text" id="apellidos" name="input_apellidos">
+                <input class="inputs" type="text" id="apellidos" name="input_apellidos">
                 <br><br><br>
 
-                <label for="nacimiento">Fecha de Nacimiento:</label>
-                <input class="form-control" type="date" min="1943-01-01" max="2005-01-01" id="nacimiento" name="input_nacimiento">
+                <label class="labels" for="nacimiento">Fecha de Nacimiento:</label>
+                <input class="inputs" type="date" min="1943-01-01" max="2005-01-01" id="nacimiento" name="input_nacimiento">
                 <br><br><br>
                 
-                <label for="correo">Correo Electronico:</label>
-                <input class="form-control" type="text" id="correo" name="input_correo">
+                <label class="labels" for="correo">Correo Electronico:</label>
+                <input class="inputs" type="text" id="correo" name="input_correo">
                 <br><br><br>
 
-                <label for="contraseña">Contraseña:</label>
-                <input class="form-control" type="text" id="contraseña" name="input_contraseña">
+                <label class="labels" for="contraseña">Contraseña:</label>
+                <input class="inputs" type="text" id="contraseña" name="input_contraseña">
                 <br><br><br>
 
                 <div class="button">
@@ -55,6 +55,8 @@
 
             </form>
         </div>
+    </div>
+    <br><br><br>
     </div>
 </body>
 </html>

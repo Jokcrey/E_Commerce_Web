@@ -19,7 +19,7 @@
 
 
 .formulario_registro {
-    border: 1px solid #16cf2f;
+    border: 1px solid #cf3b16;
     border-radius: 1em;
     margin: 0 auto;
     width: 600px;
@@ -35,7 +35,7 @@ h1{
 form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
-    width: 450px;
+    width: 400px;
     /* Esquema del formulario */
     flex: auto;
     padding: 1em;
@@ -43,12 +43,20 @@ form {
     border-radius: 1em;
 }
 
-label {
+.labels{
     /* Tamaño y alineación uniforme */
     display: inline-block;
     width: 100px;
     text-align: right;
 }
+
+.inputs{
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
 .button {
     
     text-align: center;
