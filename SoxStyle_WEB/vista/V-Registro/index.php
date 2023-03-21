@@ -15,7 +15,8 @@
             </div>
 
             <div class="btn_inisesion">
-            
+                <br>
+                <a class="btn_iniciars" href="../Login/login.php">Iniciar Sesion</a>
             </div>
 
         </div>

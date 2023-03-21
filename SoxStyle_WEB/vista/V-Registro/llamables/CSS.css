@@ -29,7 +29,10 @@
     box-align: right;
     margin: 15px;
 }
-
+.btn_iniciars{
+    text-align: center;
+    width: 50;
+}
 .formulario_registro {
     border: 1px solid #000000;
     border-radius: 1em;
