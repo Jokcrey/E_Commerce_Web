@@ -7,7 +7,7 @@
     <title>Pagina de compra</title>
 </head>
 <body>
-    <a href="" style="text-decoration:none">Atrás</a>
+    <a href="../carrito de compras/CarritoCompras.php" style="text-decoration:none">Atrás</a>
 
     <h2>Página de compras </h2>
     <form action="">
