@@ -1,3 +1,14 @@
+<!--Validacion para ingresar a la lista de deseo solo si te has logeado -->
+<?php
+//session_start();
+
+  //if (empty($_SESSION['email']['pass'])) {
+    
+    //header('Location: login.php');
+    //exit;
+    //}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head> 
@@ -43,6 +54,7 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    <a href="../carrito de compras/"></a><img src="/E_Commerce_Web/SoxStyle_WEB/icons/Lg-cancelar.png alt="">
                 </div>
 
                 <div class="columna">
@@ -56,6 +68,7 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    <img src="/E_Commerce_Web/SoxStyle_WEB/icons/Lg-cancelar.png alt="">
                 </div>
 
                 <div class="columna">
@@ -69,11 +82,13 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    <a href="../carrito de compras/CarritoCompras.php">.</a>
+                    <img src="/icons/Lg-añadido-fav.png">
+                    
                 </div>
             </div>
             <br>
             <br>
         <hr>
-           
      </body>
 </html>
