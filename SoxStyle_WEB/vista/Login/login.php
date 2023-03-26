@@ -26,7 +26,7 @@
 <div class="contenedor">
 <img src="../../images/LogoSinfondo.png">
 
-<form>
+<form action="controladores/loginController.php">
     <br>
     <br>
   <div class="row mb-3">
