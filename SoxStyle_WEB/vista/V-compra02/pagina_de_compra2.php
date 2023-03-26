@@ -1,3 +1,12 @@
+<?php 
+
+    if(isset($_POST['comprar'])){
+    
+        $contrasena = $_POST['contrasena'];
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +37,7 @@
     </table>
     <br>
     <br>
-    <form action="">
+    <form action="" method="post">
         <label for="Texto contrasena">Por favor ingrese la contraseña para realizar la compra</label>
         <br>
         <br>
@@ -36,7 +45,11 @@
         <input type="text" name="contrasena">
         <br>
         <br>
-        <button type="submit">Comprar</button>
+        <button type="submit" name="comprar" >Comprar</button>
+
+        <?php
+            include("../../controlador/pagina_de_compra_2_controller.php");
+        ?>
 
     </form>
 </body>
