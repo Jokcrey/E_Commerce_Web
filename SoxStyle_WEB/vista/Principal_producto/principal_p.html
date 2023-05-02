@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Pagina Producto</title>
 </head>
@@ -40,16 +41,21 @@
                         <option value="43">43</option>
                         <option value="44">44</option>
                     </select>
-                </div>
+                </div>  
              
             </div>
             <button class="btn-clean">Limpiar</button>
             <br>
             <br>
          
-            <div class="container-quantity">
-                <span class="increment">+</span>
-                <span class="decrement">-</span>
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" min="1" class="input-quantity">
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
                     
             </div>
             
@@ -158,6 +164,7 @@
     <footer>
         <p>Footer</p>
     </footer>
+    <script src="index.js"> </script>
  
     
 </body>
