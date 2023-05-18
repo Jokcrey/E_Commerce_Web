@@ -1,3 +1,14 @@
+<!--Validacion para ingresar a la lista de deseo solo si te has logeado -->
+<?php
+//session_start();
+
+  //if (empty($_SESSION['email']['pass'])) {
+    
+    //header('Location: login.php');
+    //exit;
+    //}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head> 
@@ -43,6 +54,8 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    
+                    <a href="../carrito de compras/CarritoCompras.php">Carrito de compras</a>
                 </div>
 
                 <div class="columna">
@@ -56,6 +69,8 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    
+                    <a href="../carrito de compras/CarritoCompras.php">Carrito de compras</a>
                 </div>
 
                 <div class="columna">
@@ -69,11 +84,12 @@
                     <path d="M17 17h-11v-14h-2" />
                     <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
+                    <a href="../carrito de compras/CarritoCompras.php">Carrito de compras</a>
                 </div>
             </div>
+            <a href="../Principal_producto/principal_p.html">Principal</a>
             <br>
             <br>
         <hr>
-           
      </body>
 </html>
