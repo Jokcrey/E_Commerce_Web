@@ -41,8 +41,8 @@
          <div class="card">
             <img class="card-img-top" src="/proyecto/E_Commerce_Web/imagenes/imagen.jpg" alt="">
             <div class="card-body">
-                <h5 class="card-title">Guayos Adidas predator edge terreno firme</h5>
-                <p class="card-text">$1.200.000</p>
+                <h5 class="card-title">Descripcion</h5>
+                <p class="card-text">precio</p>
                 <button class="btn btn-primary" value="agregar" name="btnAccion" type="submit">Favoritos</button>
             </div>
          </div>
@@ -51,9 +51,8 @@
          <div class="card">
             <img class="card-img-top" src="/proyecto/E_Commerce_Web/imagenes/g2.webp" alt="">
             <div class="card-body">
-                <h5 class="card-title">Guayos X Speedportal.3 Terreno Firme sin cordones
-                </h5>
-                <p class="card-text">$1.300.000</p>
+                <h5 class="card-title">Descripcion </h5>
+                <p class="card-text">Precio</p>
                 <button class="btn btn-primary" value="agregar" name="btnAccion" type="submit">Favoritos</button>
             </div>
          </div>
@@ -62,8 +61,8 @@
          <div class="card">
             <img class="card-img-top" src="/proyecto/E_Commerce_Web/imagenes/camisa.webp" alt="">
             <div class="card-body">
-                <h5 class="card-title">Camisa Nike azul</h5>
-                <p class="card-text">$250.000</p>
+                <h5 class="card-title">Descripcion</h5>
+                <p class="card-text">precio</p>
                 <button class="btn btn-primary" value="agregar" name="btnAccion" type="submit">Favoritos</button>
             </div>
          </div>
@@ -72,8 +71,8 @@
          <div class="card">
             <img class="card-img-top" src="/proyecto/E_Commerce_Web/imagenes/camisa2.jpg" alt="">
             <div class="card-body">
-                <h5 class="card-title">Camisa selección USA blanca</h5>
-                <p class="card-text">$500.000</p>
+                <h5 class="card-title">Descripcion</h5>
+                <p class="card-text">Precio</p>
                 <button class="btn btn-primary" value="agregar" name="btnAccion" type="submit">Favoritos</button>
             </div>
          </div>
@@ -82,8 +81,8 @@
          <div class="card">
             <img class="card-img-top" src="/proyecto/E_Commerce_Web/imagenes/gorra.webp" alt="">
             <div class="card-body">
-                <h5 class="card-title">Gorra Adidas color azul</h5>
-                <p class="card-text">$120.000</p>
+                <h5 class="card-title">Descripcion</h5>
+                <p class="card-text">precio</p>
                 <button class="btn btn-primary" value="agregar" name="btnAccion" type="submit">Favoritos</button>
             </div>
          </div>
