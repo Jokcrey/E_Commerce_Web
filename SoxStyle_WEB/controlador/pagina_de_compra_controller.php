@@ -1,6 +1,7 @@
 <?php
 
 if(isset($_POST['continuar'])){
+
     if(empty($nombre)){
         echo "<br>";
         echo "<br>";
@@ -60,18 +61,12 @@ if(isset($_POST['continuar'])){
         echo "<br>";
         echo "La dirección solo puede contener letras, números, comas, guiones y espacios";
       }
-
-      if(isset($_POST['md1'])) {
-      } else{
-        echo "<br>";
-        echo "<br>";
-        echo "Debe seleccionar un método de pago para continuar con la compra";
-    } 
+     # if(isset($_POST['md1'])) {
+     # } else{
+      #  echo "<br>";
+      #  echo "<br>";
+       # echo "Debe seleccionar un método de pago para continuar con la compra";
+    #}   
 }
-
-if(isset($_POST['agregar'])){
-    header("location: ../../vista/Metodo de pago/metodo-de-pago.html ");
-}
-
 
 ?>
