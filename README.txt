@@ -6,4 +6,4 @@ Juan Manuel Sanchez Cardozo
 Sebastian Mafla Valencia
 Dylan Fontanarossa Reina
 juan daniel cruz clavijo
-
+Erick Romero Villa
