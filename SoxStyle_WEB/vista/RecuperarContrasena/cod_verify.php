@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/codigo.css">
     <title>Document</title>
 </head>
 <body>
-    <!--BARRA DE NAVEGACION-->
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../../images/LogoSinfondo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-      Sox Style<!--Texto al lado de la foto-->
-    </a>
-    <span class="navbar-text">
-        Usuario <!--Texto al final de la barra-->
-      </span>
-  </div>
-</nav>
-<!--FIN BARRA DE NAVEGACION-->
-<br>
+
 <div class="contenedor">
-    <h1>Ingrese el codigo de verificacion</h1>
-    <br><p></p>
-    <label for="digitos">.</label>
-    <input type="text" id="digitos" name="digitos" maxlength="4">
+  <br>
+  <br>
+  <br>
+<h1>Ingrese el codigo de verificacion</h1>
+<div class="form-group">
+    <form action="" method="POST">
+    <input type="text" id="digito1" name="digito1" maxlength="1" oninput="autofocusNext(this, 'digito2')">
+
+    <input type="text" id="digito2" name="digito2" maxlength="1" oninput="autofocusNext(this, 'digito3')">
+
+    <input type="text" id="digito3" name="digito3" maxlength="1" oninput="autofocusNext(this, 'digito4')">
+
+    <input type="text" id="digito4" name="digito4" maxlength="1">
     
     <br>
-    <button type="button" class="btn btn-primary">Siguiente</button>
-</div>
+    <br>
 
+    <button type="submit" class="boton">Siguiente</button>
+    </form>
+    </div>
+</div>
+<script src="JS/codigo.js"></script>
 </body>
 </html>
